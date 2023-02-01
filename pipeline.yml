@@ -6,7 +6,7 @@ jobs:
   displayName: Build
   steps:
   - script: dotnet --version
-     displayName: Check .NET Version
+    displayName: Check .NET Version
   - script: dotnet restore
     displayName: Restore NuGet Packages
   - script: dotnet build
